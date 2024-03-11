@@ -49,5 +49,8 @@ BOARD_SEPOLICY_DIRS += \
 
 # turbo_adapter
 BOARD_SEPOLICY_DIRS += \
-    hardware/google/pixel-sepolicy/turbo_adapter
+    hardware/google/pixel-sepolicy/turbo_adapter/private
+
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS += \
+    hardware/google/pixel-sepolicy/turbo_adapter/public
 endif
